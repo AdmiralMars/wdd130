@@ -20,9 +20,12 @@ header {
     background-color: var(--thin-myrtle-green);
 }
 
-header a {
-    padding: 1rem;
+header nav {
     padding-top: 4rem;
+}
+
+header nav a {
+    padding: 1rem;
     color: var(--rich-black)
     
 }
