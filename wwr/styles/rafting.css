@@ -1,0 +1,92 @@
+:root {
+    --brown-sugar: rgb(129, 71, 41);  
+    --rich-black: #182130ff;  
+    --myrtle-green: #4F7F7Cff;
+    --thin-myrtle-green: rgba(79, 127, 124, 0.7);
+    --ash-gray: #A7C7C2ff;  
+    --platinum: #DAE0E0ff; 
+
+    --heading-font: "Noto Sans", sans-serif;
+    --body-font: "Open Sans", sans-serif;
+}
+
+* {
+    text-align: center;
+}
+header {
+    display: flex;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bolder;
+    background-color: var(--thin-myrtle-green);
+}
+
+header a {
+    padding: 1rem;
+    padding-top: 4rem;
+    color: var(--rich-black)
+    
+}
+
+header img {
+    padding-right: 5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.hero img {
+    padding-top: 1rem;
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+ .hero h1 {
+    width: 100%;
+    padding-top: 2.5rem;
+    position: absolute;
+    top: 8rem;
+    color: var(--platinum);
+    font-family: "Noto Sans", sans-serif;
+ }
+.hero article {
+    width: 100%;
+    padding: 2rem;
+    position: absolute;
+    top: 12rem;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    
+}
+
+.hero article img {
+    width: 150px;
+    float: right;
+    padding-right: 3rem;
+}
+
+main {
+    background-color: var(--thin-myrtle-green);
+}
+main h2 {
+    font-family: "Noto Sans", sans-serif;
+    color: var(--brown-sugar)
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+footer {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+footer img {
+    float: right;
+    padding: 0.3rem;
+}
