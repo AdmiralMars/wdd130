@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /*Playing with background images
+    background-image: url("/images/cblv6.jpg");
+    background-size: 100%;*/
 }
 
 header, footer, .grid{
@@ -24,10 +27,6 @@ nav a {
     display: block;
     padding: 10px;
     font-weight: 600;
-}
-
-.grid {
-    display: grid;
 }
 
 main {
@@ -91,8 +90,11 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 10%);
-    padding: 1rem;
     background-color: #ddd;
     color: #000;
     
+}
+
+.grid {
+    display: grid;
 }
