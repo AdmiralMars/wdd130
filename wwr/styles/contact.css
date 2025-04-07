@@ -81,6 +81,10 @@ header nav a {
     
 }
 
+#rafter1 img{
+    width: 100px;
+}
+
 #rafter2{
     
     grid-row: 4/6;
@@ -89,6 +93,11 @@ header nav a {
     
 }
 
+#rafter2 img{
+    width: 100px;
+}
+
+
 #rafter3{
     
     grid-row: 6/8;
@@ -96,6 +105,11 @@ header nav a {
     color: var(--platinum);
     
 }
+
+#rafter3 img{
+    width: 100px;
+}
+
 
 .hero h3{
     grid-row: 3/4;
@@ -111,6 +125,9 @@ header nav a {
     background-color: var(--solid-ash-gray);;
     color: var(--platinum);
     font-family: "Open Sans", sans-serif;
+}
+article img{
+    width: 40px;
 }
 
 #email {
@@ -134,6 +151,10 @@ main {
     grid-template-columns: 8rem 1fr 1fr 2rem;
     background-color: var(--thin-myrtle-green);
     border: 2px solid var(--brown-sugar);
+}
+
+.map img {
+    width: 25px;
 }
 
 .map h2 {
@@ -182,7 +203,7 @@ main {
 form {
     margin: 2rem;
     display: grid;
-    grid-template-rows: 1rem 1fr 4rem 4rem 5rem 1fr 2rem 1fr 1rem;
+    grid-template-rows: 1rem 5rem 3rem 4rem 7rem 16rem 2rem 1fr 1rem;
     grid-template-columns: 2rem 1fr 1fr 1fr 1fr 1fr 1fr 2rem;
     background-color: var(--thin-myrtle-green);
     border: 2px solid var(--brown-sugar);
@@ -245,14 +266,15 @@ fieldset {
 
 .subscribe {
     grid-row: 8/7;
-    grid-column: 3/8;
+    grid-column: 3/6;
     color: var(--platinum);
     font-family: "Open Sans", sans-serif;
 }
 
 form button {
+    margin: 1rem 24rem;
     grid-row: 8/9;
-    grid-column: 4/6;
+    grid-column: 3/8;
     color: var(--platinum);
     font-family: "Open Sans", sans-serif;
     background-color: #3d6364;
