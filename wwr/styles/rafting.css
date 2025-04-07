@@ -1,11 +1,11 @@
 :root {
-    --brown-sugar: rgb(129, 71, 41);  
+    --brown-sugar: rgb(69, 35, 20);  
     --thin-brown-sugar: rgba(129, 70, 41, 0.497);  
     --rich-black: #182130ff;  
     --myrtle-green: #4F7F7Cff;
     --thin-myrtle-green: rgba(79, 127, 124, 0.7);
-    --ash-gray: rgba(167, 199, 194, 0.432);  
-    --platinum: #DAE0E0ff; 
+    --ash-gray: rgba(113, 164, 159, 0.432);  
+    --platinum: rgb(255, 255, 255); 
 
     --heading-font: "Noto Sans", sans-serif;
     --body-font: "Open Sans", sans-serif;
@@ -16,6 +16,7 @@ html {
 }
 
 header {
+    padding-bottom: 2rem;
     display: grid;
     font-family: "Noto Sans", sans-serif;
     font-weight: bolder;
@@ -122,9 +123,9 @@ main {
 
 .history h2 {
     font-family: "Noto Sans", sans-serif;
-    color: var(--brown-sugar);
+    color: var(--platinum);
     text-align: center;
-    background-color: var(--ash-gray);
+    /*background-color: var(--ash-gray);*/
     grid-row: 2/3;
     grid-column: 3/4;
 
@@ -155,7 +156,7 @@ main {
 
 main h2 {
     font-family: "Noto Sans", sans-serif;
-    color: var(--brown-sugar);
+    color: var(--platinum);
     text-align: center;
     background-color: var(--ash-gray);
 }
@@ -165,7 +166,7 @@ main section p {
     padding: 0 2rem;
     font-weight: 500;
     text-align: justify;
-    background-color: var(--ash-gray);
+    /*background-color: var(--ash-gray);*/
 }
 
 .adventures{
