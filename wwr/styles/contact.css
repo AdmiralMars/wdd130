@@ -110,7 +110,6 @@ header nav a {
     width: 100px;
 }
 
-
 .hero h3{
     grid-row: 3/4;
     grid-column: 2/4;
