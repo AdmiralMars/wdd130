@@ -49,6 +49,17 @@ header nav a {
     padding: 0 2rem;
     font-size: large;
 }
+
+.trip {
+    margin: 0 2rem;
+    display: grid;
+    grid-template-rows: 2rem 10rem 15rem 1fr 2rem;
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+    background-color: var(--thin-myrtle-green);
+    text-align: center;
+    border: 2px solid var(--brown-sugar);
+}
+
 .hero {
     margin: 0 2rem;
     display: grid;
@@ -59,7 +70,7 @@ header nav a {
     border: 2px solid var(--brown-sugar);
 }
 
-.hero h1, .hero h3 {
+.hero h1, .hero h3, .trip h1 {
     padding-top: 1rem;
     background-color: var(--solid-ash-gray);
     color: var(--platinum);
@@ -71,6 +82,37 @@ header nav a {
     grid-column: 2/4;
     color: var(--platinum);
 
+}
+
+.trip h1{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    color: var(--platinum);
+}
+
+.trip h2 {
+    grid-column: 2/3;
+    grid-row: 4/3;
+    color: var(--platinum);
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--thin-brown-sugar);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.trip a {
+    background-color: var(--rich-black);
+    color: var(--platinum);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.trip img {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    justify-self: center;
+    width: 20rem;
 }
 
 #rafter1{
@@ -138,6 +180,34 @@ article img{
     color: var(--platinum);
     font-family: "Open Sans", sans-serif;
 }
+
+.trip table {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    border: 1px solid #000;
+    color: var(--platinum);
+    font-size: 1.2rem;
+}
+
+.trip table img {
+    width: 15rem;
+}
+
+thead th {
+	background-color: #000;
+	color: #fff;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: var(--ash-gray);
+}
+
 
 main {
     background-color: var(--thin-myrtle-green);
@@ -302,10 +372,26 @@ footer p {
 }
 
 footer a {
-    margin-left: 50px;
-    text-decoration: none;
+    margin: 10px 0 0 50px;
+    color: var(--platinum);
 }
 
 footer img {
     width: 50px;
 }
+
+/* .adventures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 99%;
+    margin-left: 1rem;
+    color: var(--platinum);
+    text-align: center;
+    
+}
+
+.adventures img{
+    width: 110%;
+    grid-row: 1/2;
+
+} */

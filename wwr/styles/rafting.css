@@ -49,33 +49,63 @@ header nav a {
     font-size: large;
 }
 
+.hero {
+    display: grid;
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+    grid-template-rows: 2rem 15rem 15rem 5rem 5rem 10rem 2rem;
+}
+
 .hero img {
+    grid-column: 1/5;
+    grid-row: 1/7;
     padding-top: 1rem;
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
 }
 
 .hero h1 {
-    position: absolute;
-    top: 7.8rem;
-    left: 23rem;
+    grid-column: 2/4;
+    grid-row: 2/3;
     color: var(--platinum);
     text-align: center;
     background-color: var(--thin-brown-sugar);
-    padding: .55rem;
+    margin: 4rem;
     font-family: "Noto Sans", sans-serif;
 
 }
 
+.hero h2 {
+    grid-column: 2/3;
+    grid-row: 4/3;
+    color: var(--platinum);
+    padding-top: 1rem;
+    text-align: center;
+    background-color: var(--thin-brown-sugar);
+    font-family: "Noto Sans", sans-serif;
+}
+
+.hero a {
+    background-color: var(--rich-black);
+    color: var(--platinum);
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+.hero a:hover {
+    background-color: var(--brown-sugar);
+
+}
+
 .hero article {
+    grid-column: 2/4;
+    grid-row: 4/3;
     color: var(--platinum);
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
     text-align: justify;
-    position: absolute;
-    top: 13rem;
+    position: relative;
     margin: 0 3rem;
     background-color: var(--thin-brown-sugar);
 }
@@ -85,28 +115,74 @@ header nav a {
     float: right;
     padding: 1rem;
 }
- /* .hero h1 {
+
+.hero form {
+    grid-column: 3/4;
+    grid-row: 3/6;
+    margin: 2rem;
+    display: grid;
+    grid-template-rows: 1rem 1fr 1fr 1fr 1fr 1rem;
+    grid-template-columns: 2rem 1fr 1fr 2rem;
+    background-color: var(--thin-myrtle-green);
+    border: 2px solid var(--brown-sugar);
+    align-items: center;
+}
+
+.hero form h2 {
+    grid-row: 2/3;
+    grid-column: 2/4;
     color: var(--platinum);
     font-family: "Noto Sans", sans-serif;
     text-align: center;
-    grid-row: 1 / 2;
-    grid-column: 3 / 4;
-    background-color: var(--thin-brown-sugar);
-
- }
-.hero article {
-    color: var(--platinum);
-    font-family: "Open Sans", sans-serif;
-    font-weight: 500;
-    text-align: justify;
-    grid-column: 2 / 6;
-    grid-row: 2 / 5;
+    padding: 1rem;
 }
 
-.hero article img {
-    width: 150px;
-    float: right;
+.column1 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
+}
+
+.column2 {
+    grid-row: 5/4;
+    grid-column: 2/3;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
+}
+
+.subscribe {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
+}
+
+/* #camping {
+    margin: 2rem;
+    grid-row: 5/6;
+    grid-column: 2/3;
+    padding: 1rem;
+    background-color: var(--solid-ash-gray);;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
+}
+
+#rafting {
+    margin: 2rem;
+    grid-row: 5/6;
+    grid-column: 3/4;
+    padding: 1rem;
+    background-color: var(--solid-ash-gray);;
+    color: var(--platinum);
+    font-family: "Open Sans", sans-serif;
 } */
+
+
+
+.hero fieldset {
+    border: none;
+}
 
 main {
     background-color: var(--thin-myrtle-green);
